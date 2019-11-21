@@ -1,5 +1,3 @@
-[toc]
-
 **截止2019.11.21可用**
 
 1. 安装一些依赖
@@ -16,20 +14,20 @@ sudo apt-get install libreadline6 libreadline6-dev  python-pip  -y
 sudo pip install https://pypi.tuna.tsinghua.edu.cn/simple psutil
 sudo pip install https://pypi.tuna.tsinghua.edu.cn/simple crcmod
 ```
-2. 创建P4的安装目录
+2. clone相关脚本
 ```
-mkdir ~/P4
+git clone https://github.com/Multhree/p4tutorials.git
 ```
 3. 安装P4
 ```
-cd ~/P4
+cd ~/p4tutorials
 ./p4.sh
 ```
 4. 下载tutorials
 ```
 sudo mv tutorials.sh ~
 cd ..
-./tutorials
+./tutorials.sh
 ```
 5. 重启
 ```
