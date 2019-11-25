@@ -32,7 +32,7 @@ sudo sh p4.sh
 ```
 sudo mv tutorials.sh ~
 cd ..
-sudo sh tutorials.sh
+sudo sh tutorials.sh username
 ```
 
 - 重启
