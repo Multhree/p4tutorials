@@ -1,4 +1,3 @@
-**截止2019.11.21可用**
 
 - 安装一些依赖
 ```
@@ -15,12 +14,6 @@ sudo apt-get install libreadline6 libreadline6-dev python-pip  -y
 sudo pip install -i https://pypi.tuna.tsinghua.edu.cn/simple psutil
 
 sudo pip install -i https://pypi.tuna.tsinghua.edu.cn/simple crcmod
-```
-
-- 将pypi镜像设为默认
-```
-pip install pip -U
-pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 - clone相关脚本
