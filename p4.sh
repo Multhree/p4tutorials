@@ -52,7 +52,7 @@ sudo ldconfig
 unset LDFLAGS
 cd ..
 # Install gRPC Python Package
-sudo pip install -i https://pypi.tuna.tsinghua.edu.cn/simple grpcio
+sudo pip install -i grpcio
 
 # --- BMv2 deps (needed by PI) --- #
 git clone https://github.com/p4lang/behavioral-model.git

@@ -17,6 +17,12 @@ sudo pip install -i https://pypi.tuna.tsinghua.edu.cn/simple psutil
 sudo pip install -i https://pypi.tuna.tsinghua.edu.cn/simple crcmod
 ```
 
+- 将pypi镜像设为默认
+```
+pip install pip -U
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+```
+
 - clone相关脚本
 ```
 git clone https://github.com/Multhree/p4tutorials.git
