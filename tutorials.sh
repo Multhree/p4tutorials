@@ -5,6 +5,9 @@
 # modified by: yxchen
 ##############################################################
 
+# Print script commands and exit on errors.
+set -xe
+
 # --- Tutorials --- #
 git clone https://github.com/p4lang/tutorials
 sudo chown -R $1:$1 ~/tutorials/
